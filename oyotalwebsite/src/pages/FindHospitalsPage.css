@@ -1,0 +1,88 @@
+
+.find-hospitals-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .find-hospitals-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+  
+  .find-hospitals-content {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .find-hospitals-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading-dark {
+    color: #222;
+  }
+  
+  .heading-blue {
+    color: #4169e1;
+  }
+  
+  .find-hospitals-subheading {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .search-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #4169e1;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .search-bar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .search-icon {
+    margin-right: 1rem;
+  }
+  
+  .search-text {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .find-hospitals-heading {
+      font-size: 2rem;
+    }
+    
+    .search-bar {
+      padding: 0.8rem 1rem;
+    }
+    
+    .search-text {
+      font-size: 0.9rem;
+    }
+  }

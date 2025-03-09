@@ -1,0 +1,148 @@
+.home-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .why-choose-us {
+    margin-bottom: 2rem;
+  }
+  
+  .why-choose-button {
+    background-color: #e6f0ff;
+    color: #4169e1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  
+  .main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .sub-heading {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .features-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .feature-card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    padding: 2rem;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #e6f0ff;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .feature-description {
+    color: #666;
+  }
+  
+  .cta-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+    margin-top: 3rem;
+  }
+  
+  .cta-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .cta-subheading {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #4169e1;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #3050c0;
+  }
+  
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 2rem;
+    }
+    
+    .features-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .feature-card {
+      width: 100%;
+    }
+    .find-book-heading {
+      text-align: center;
+  }
+  .find-book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading-container {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+  }

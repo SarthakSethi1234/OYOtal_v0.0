@@ -1,0 +1,71 @@
+.admin-login-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+  
+  .admin-login-form-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+  }
+  
+  .admin-login-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .admin-login-subheading {
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .admin-login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .admin-sign-in-button {
+    background-color: #4169e1;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-sign-in-button:hover {
+    background-color: #3050c0;
+  }
+  
+  .admin-create-account-prompt {
+    text-align: center;
+    margin-top: 2rem;
+    color: #666;
+  }
+  
+  .admin-create-account-link {
+    color: #4169e1;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-login-form-container {
+      padding: 1.5rem;
+    }
+  }
